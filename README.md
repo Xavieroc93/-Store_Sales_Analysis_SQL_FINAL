@@ -92,7 +92,7 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 2.-TRATAMIENTO df_pedidos
   > <p>No se identifican valores nulos
   > <p>No se identifican valores duplicados
-  > <p>***Se identifica que varia informaciòn se repite de la tabla df_pedidos, por lo cual se recomienda que la informacion sea anexada a una sola tabla***
+  > <p>Se identifica que varia informaciòn se repite de la tabla df_pedidos, por lo cual se recomienda que la informacion sea anexada a una sola tabla
   
 3.- TRATAMIENTO df_productos
   > <p> No se identifican valores duplicados
@@ -105,6 +105,23 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
   > <p>No se identifican valores duplicados
   Se cambia tipos de datos
   Se cambia tipos de datos
+
+<h2>EDA: Análisis exploratorio de los datos</h2>
+
+<h3>Estadística Descriptiva</h3>
+
+<p>A partir de nuestro análisis exploratorio inicial, hemos obtenido perspectivas preliminares de los datos.</p>
+
+<h4>1. EVOLUCIOND DE VENTAS </h4>
+<p>Se observó que el pico más alto en las ventas ocurrió el 24/11/2019, influenciado por dos eventos significativos en Brasil:</p>
+>1.- Impacto del Black Friday: Este evento atrae a consumidores a aprovecha
+>2.- Victoria del Flamengo: La coincidencia de esta fecha con la celebración de Flamengo por ganar el Brasileirão y la Copa Libertadores pudo contribuir un clima de euforia nacional.
+La sinergia entre las promociones de Black Friday y la celebración deportiva pudo haber creado un ambiente excepcionalmente propicio para el consumo, lo cual fue estratégicamente aprovechado por la empresa para maximizar ingresos, implementando campañas de marketing que resonaron con el sentimiento colectivo de celebración.
+
+
+<h4> 2. Uso de dispositivos móbiles (isMobile) </h4>
+<p>Apenas el 9.75% de las visitas se efectuaron desde dispositivos móviles. Esta tendencia concuerda con el periodo analizado (2016-2017), época previa al auge de los pagos mediante plataformas digitales móviles por posible impacto del COVID.</p>
+
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
 
