@@ -65,6 +65,7 @@ En este apartado desargaremos los datos con los cuales trabajaremos
 
 <h3>Cargando las bases de datos</h3>
 <br>
+<p>  df_itens_pedidos = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/itens_pedidos.csv')
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/50e314e0-a2c3-4ba7-b9ce-9cd58be75666)
 
