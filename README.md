@@ -86,13 +86,13 @@ En este apartado desargaremos los datos con los cuales trabajaremos
 Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
 1.- TRATAMIENTO df_itens_pedido
-  > No se identifican valores nulos
-  > No se identifican valores duplicados
+  > <p>No se identifican valores nulos
+  > <p>No se identifican valores duplicados
 
 2.-TRATAMIENTO df_pedidos
-  > No se identifican valores nulos
-  > No se identifican valores duplicados
-  > ***Se identifica que varia informaciòn se repite de la tabla df_pedidos, por lo cual se recomienda que la informacion sea anexada a la tabla df_itens_pedidos***
+  > <p>No se identifican valores nulos
+  > <p>No se identifican valores duplicados
+  > <p>***Se identifica que varia informaciòn se repite de la tabla df_pedidos, por lo cual se recomienda que la informacion sea anexada a la tabla df_itens_pedidos***
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
 
