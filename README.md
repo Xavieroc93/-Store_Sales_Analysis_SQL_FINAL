@@ -195,7 +195,7 @@ Paulo Calanca fue el vendedor con mayores ventas acumuladas desde 2019 hasta 202
 
 <p> Feedback Regular: Establecer sesiones de retroalimentación con Paulo para entender sus desafíos y ajustar su enfoque de ventas según sea necesario.
 
-<h3> PRODUCTOS </h3>
+<h3> ANALISIS DE PRODUCTOS </h3>
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/da6ec9b2-51fc-4e93-b363-f82727169284)
 
@@ -239,26 +239,31 @@ Marketing Personalizado: Desarrollar campañas de marketing enfocadas en las ciu
 Mejora Logística: Explorar opciones para reducir los costos de envío en las áreas más costosas y considerar la posibilidad de establecer almacenes en regiones estratégicas para mejorar los tiempos de entrega y reducir costos.
 
 
-<h2>EDA: Análisis exploratorio de los datos</h2>
+<h2>OPTIMIZACION DE TABLAS</h2>
 
-<h3>Estadística Descriptiva</h3>
+Se ha observado que tanto la tabla df_itens_pedidos como la tabla df_pedidos comparten las columnas "pedido_id", "producto_id" y "total". Por lo tanto, surge la necesidad de simplificar estas tablas combinándolas en una sola tabla para mejorar la eficiencia y la gestión de los datos.
 
-<p>A partir de nuestro análisis exploratorio inicial, hemos obtenido perspectivas preliminares de los datos.</p>
+Razones
 
-<h4>1. Número de visitas promedio (visitNumber) </h4>
-<p>En promedio, los usuarios visitaron el sitio unas 3.67 veces. Sin embargo, existe una gran variabilidad, con una desviación estándar de 6.54 y un máximo de 58 visitas por usuario. Esto sugiere la presencia tanto de visitantes frecuentes como de aquellos que acuden ocasionalmente.</p>
+Reducción de redundancia: Al combinar las tablas, evitamos duplicar información y reducimos la redundancia de datos. Esto conduce a un uso más eficiente del espacio de almacenamiento.
+Facilita la gestión de datos: Al tener una sola tabla que contenga toda la información relevante, la gestión de datos se simplifica. Ya no es necesario realizar un seguimiento de múltiples tablas separadas para acceder a la información completa sobre los pedidos y los productos.
+Mejora del rendimiento de consultas: Al reducir el número de tablas involucradas en una consulta, se puede mejorar el rendimiento del sistema, especialmente en bases de datos grandes. Las consultas tienden a ser más rápidas y eficientes cuando se accede a una sola tabla en lugar de múltiples tablas.
 
-<h4> 2. Uso de dispositivos móbiles (isMobile) </h4>
-<p>Apenas el 9.75% de las visitas se efectuaron desde dispositivos móviles. Esta tendencia concuerda con el periodo analizado (2016-2017), época previa al auge de los pagos mediante plataformas digitales móviles por posible impacto del COVID.</p>
+<h3>CREACION DE BASE DE DATOS EN MYSQL</h3>
 
-<h4>3. Interacciones por visitas </h4>
-<p>Los usuarios interactuaron con el sitio un promedio de 36.48 veces por visita, visualizando un total de 28.62 páginas. Esto refleja que los usuarios que realizaron compras interactuaron significativamente con el sitio.</p>
+<h4>1. Creación de la Tabla transacciones_pedidos </h4>
+<p>Al almacenar tanto la fecha como la hora de cada transacción, obtienes una granularidad de datos que permite análisis más detallados, como identificar picos de venta por hora o evaluar la eficiencia de la logística y entrega. Esta precisión puede ser crucial para optimizar operaciones, entender el comportamiento del consumidor y tomar decisiones informadas
 
-<h4>4. Detección de nuevas visitas y potenciales nuevos consumidores</h4>
-<p>Alrededor del 36.58% de las visitas correspondieron a nuevos usuarios, lo que proporciona una idea de la tasa de adquisición de nuevos clientes.</p>
+  <p> id_recibo: Usar INT es adecuado para un identificador que no será la clave primaria
+  <p> producto_id NOT NULL y vendedor_id: Establecer como NOT NULL asegura que cada transacción debe estar asociada con un producto y un vendedor, manteniendo la    <p> integridad de los datos. *pedido_id INT PRIMARY KEY:Designado como PRIMARY KEY asegura unicidad y optimiza las búsquedas y relaciones. *cantidad,              <p> valor_unitario, valor_total, costo_envio: Elegir DECIMAL(10,2) para valores monetarios proporciona precisión en cálculos financieros. *ciudad CHAR(5): Asumiendo que el código de ciudad siempre tiene 5 caracteres, CHAR(5) es eficiente en términos de almacenamiento, al tener longitud fija.</p>
 
-<h4>5. Consumo promedio</h4>
-<p>El gasto medio fue de aproximadamente 108,440,200 unidades y una desviacion de 145,673,700 unidades , presentando una alta variabilidad en las transacciones.</p>
+<h4>1. Creación de la Tabla producto </h4>
+  <p> producto VARCHAR NOT NULL:. Asumir datos siempre presentes con NOT NULL es crucial para la integridad.
+  <p> precio DECIMAL(10,2) NOT NULL: Asegura precisión en el almacenamiento de precios.
+  <p> marca VARCHAR, condicion VARCHAR(28): Se recomienda especificar una longitud máxima para VARCHAR, basada en la longitud esperada más común para estos campos.
+
+<h4>5. Creación de la Tabla vendedores</h4>
+  <p>Nombre_vendedor VARCHAR(255) NOT NULL: VARCHAR(255) es un estándar de la industria para textos cortos, permitiendo flexibilidad en los nombres sin desperdiciar espacio.</p>
 
 <h4>6. Visitas de origen directo</h4>
 <p>El 64.02% de las visitas fueron clasificadas como directas, indicando que una mayoría de los consumidores acceden al sitio sin interaccion en otras paginas de consulta de compras, lo cual puede reflejar un hábito de compra establecido en el comercio electrónico.</p>
