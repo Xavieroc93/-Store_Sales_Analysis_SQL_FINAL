@@ -59,9 +59,9 @@ El objetivo es proporcionar un entendimiento profundo que permita a la empresa n
 >from sqlalchemy import create_engine, MetaData, Table, inspect, text
 > ```
 
-<h2>Pre-procesamiento de los datos</h2>
+<h2>Obtención de datos</h2>
 
-Éste es el proceso más laborioso cuando obtenemos raw data y es el mas importante ya que a partir de datos legibles podemos continuar con el proyecto:
+En este apartado desargaremos los datos con los cuales trabajaremos
 
 <h3>Diccionarios/JSON -> Dataframes</h3>
 Encontramos en los datos estructuras no muy amigables para el trabajo de un científico de datos pero a través de herramientas que nos provee Pandas supimos resolverlo
