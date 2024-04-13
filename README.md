@@ -39,24 +39,24 @@ El objetivo es proporcionar un entendimiento profundo que permita a la empresa n
 > [!IMPORTANT] 
 > Se requiere importar las siguientes tecnologías librerías para poder trabajar con el proyecto
 > ```
-import geobr
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from matplotlib.patches import FancyBboxPatch
-from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-import matplotlib.dates as mdates
-from matplotlib.ticker import FuncFormatter
-import matplotlib.ticker as ticker
-import geopandas as gpd
-from matplotlib.patheffects import withStroke
-import requests
-from io import BytesIO
-import matplotlib.pyplot as plt
-from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-from io import BytesIO
-from sqlalchemy import create_engine, MetaData, Table, inspect, text
+>import geobr
+>import pandas as pd
+>import numpy as np
+>import matplotlib.pyplot as plt
+>import seaborn as sns
+>from matplotlib.patches import FancyBboxPatch
+>from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+>import matplotlib.dates as mdates
+>from matplotlib.ticker import FuncFormatter
+>import matplotlib.ticker as ticker
+>import geopandas as gpd
+>from matplotlib.patheffects import withStroke
+>import requests
+>from io import BytesIO
+>import matplotlib.pyplot as plt
+>from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+>from io import BytesIO
+>from sqlalchemy import create_engine, MetaData, Table, inspect, text
 > ```
 
 <h2>Pre-procesamiento de los datos</h2>
