@@ -112,7 +112,7 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
 <p>A partir de nuestro análisis exploratorio inicial, hemos obtenido perspectivas preliminares de los datos.</p>
 
-<h4> EVOLUCION DE VENTAS </h4>
+<h3> ANALISIS EVOLUCION DE VENTAS </h3>
 <p>Se observó que el pico más alto en las ventas ocurrió el 24/11/2019, influenciado por dos eventos significativos en Brasil:</p>
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/d33979c1-f51f-481c-8f37-be1475f2cf88)
@@ -121,7 +121,7 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
   <p>2.- Victoria del Flamengo: La coincidencia de esta fecha con la celebración de Flamengo por ganar el Brasileirão y la Copa Libertadores pudo contribuir un clima de euforia nacional.
 <p> La sinergia entre las promociones de Black Friday y la celebración deportiva pudo haber creado un ambiente excepcionalmente propicio para el consumo, lo cual fue estratégicamente aprovechado por la empresa para maximizar ingresos, implementando campañas de marketing que resonaron con el sentimiento colectivo de celebración.
 
-<h3>Tendencia Decreciente</h3>
+<h4>Tendencia Decreciente</h4>
 
 <p> Los datos indican una tendencia decreciente en las ventas en varias fechas de enero de 2019, específicamente el 27, 14, 15, 10, 6, 7, 8, 21, 11 y 9. Este patrón puede atribuirse a factores estacionales y económicos comunes en este período:
 
@@ -131,13 +131,13 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
 <p> Efecto de la Cuesta de Enero: Enero es conocido por ser un mes donde los consumidores enfrentan restricciones presupuestarias después de los gastos de fin de año, lo que se refleja en una reducción notable en las ventas minoristas.
 
-<h3> Ventas por dia de la semama </h3>
+<h4> Ventas por dia de la semama </h4>
 
 <p> El análisis de las ventas por día de la semana revela que los jueves, sábados y viernes son los días con mayores ventas, lo cual sugiere una oportunidad para intensificar las campañas de marketing durante estos días para maximizar los ingresos. Por otro lado, los lunes y martes muestran las menores ventas, indicando la necesidad de mejorar las estrategias promocionales en estos días para incrementar las transacciones. Estos insights pueden guiar la planificación de promociones y ofertas específicas para atraer más clientes en los días de menor rendimiento.
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/40373908-afa5-4fa1-94ee-ab617a6a1831)
 
-<h3> Comparaciòn Anual Ventas </h3>
+<h4> Comparaciòn Anual Ventas </h4>
 
 <p> Tras un analisis sobre el crecimiento de las ventas entre 2019 y 2020 muestra un aumento significativo del 78%, reflejando un notable desarrollo en el comercio durante ese período. Para el año 2021, las ventas representan solo un 8% en comparación con el año anterior, lo cual es razonable considerando que los datos disponibles solo cubren hasta el inicio del primer trimestre.
 
@@ -157,9 +157,45 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
   <p>Estas estrategias no solo ayudarán a mantener el crecimiento de las ventas, sino también a adaptarse mejor a los cambios del mercado y a las expectativas de los consumidores.
 
+<h3>ANALISIS DEL VENDEDOR</h3>
 
-<h4> 2. Uso de dispositivos móbiles (isMobile) </h4>
-<p>Apenas el 9.75% de las visitas se efectuaron desde dispositivos móviles. Esta tendencia concuerda con el periodo analizado (2016-2017), época previa al auge de los pagos mediante plataformas digitales móviles por posible impacto del COVID.</p>
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/60fc4fe8-45a8-45bb-9adc-caa6264c63f2)
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/01be4d48-77c6-4376-995a-d4388fa07139)
+
+
+Paulo Calanca fue el vendedor con mayores ventas acumuladas desde 2019 hasta 2021. Sin embargo, en 2020, su rendimiento disminuyó en comparación con el año anterior, y en el primer trimestre de 2021, tanto Ana Duarte como Daniel Siquiera lograron superar sus ventas, duplicando prácticamente sus propios números. Este cambio indica un notable aumento en la efectividad de ventas de Ana y Daniel, quienes han mejorado significativamente su desempeño, superando a Paulo en las ventas iniciales de 2021.
+
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/3a417d2e-df58-473c-8d3d-962d14db75f7)
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/00e9cafc-bc2a-43d2-9709-a1c093c01e81)
+
+
+<h4> Posibles Razones para el Cambio en las Ventas </h4>
+
+<p> Estrategias de Venta Diferentes: Los vendedores pueden estar utilizando métodos de venta distintos, algunos de los cuales pueden ser más efectivos bajo ciertas condiciones de mercado o con ciertos segmentos de clientes.
+
+<p> Cambio en las Preferencias del Consumidor: Si los productos que ofrece Paulo ya no están alineados con las tendencias actuales o las necesidades del mercado, esto podría afectar sus ventas negativamente.
+
+<p> Capacitación y Motivación: La falta de capacitación continua o desmotivación personal también puede impactar el rendimiento de un vendedor.
+
+<p> Competencia Interna y Externa: Una competencia más agresiva tanto dentro del equipo de ventas como de competidores externos podría estar influyendo en las cifras.
+
+<p> Portfolio de Productos: Quizás Ana y Daniel han diversificado los productos que ofrecen o se enfocan en artículos más demandados.
+
+<p> Relaciones con los Clientes: Las habilidades de relación con el cliente de Ana y Daniel podrían ser superiores, generando repetición de negocios y referencias.
+
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/e6b4a282-43d5-4137-a987-457ec11d6e64)
+
+<h4>Recomendaciones para Mejorar las Ventas</h4>
+
+<p> Capacitación en Ventas: Proporcionar a Paulo (y al resto del equipo) formación continua en técnicas de venta modernas y estrategias de negociación.
+
+<p> Análisis de Datos de Ventas: Utilizar análisis de datos para identificar qué productos están vendiendo bien y ajustar el enfoque de ventas de Paulo. Incentivos y Motivación: Revisar el sistema de incentivos para asegurar que motiva adecuadamente a los vendedores.
+
+<p> Mejora del Engagement del Cliente: Implementar herramientas o sistemas para mejorar la relación con los clientes, como CRM, para personalizar el servicio y mejorar la satisfacción del cliente.
+
+<p> Feedback Regular: Establecer sesiones de retroalimentación con Paulo para entender sus desafíos y ajustar su enfoque de ventas según sea necesario.
+
+
 
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
