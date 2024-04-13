@@ -81,13 +81,18 @@ En este apartado desargaremos los datos con los cuales trabajaremos
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/198e2636-a8f5-4354-ac73-2af5a590763e)
 
-<h3>Preprocesamiento general</h3>
+<h3>Tratamiento de datos</h3>
 
-Después de convertir todo a un DataFrame tuvimos que hacer un pre-procesamiento general que consistió en:
-1. Eliminar columnas o variables que no aportaban información
-2. Eliminar duplicados
-3. Inputación de valores nulos
-4. Transformación de estructuras de datos. Por ejemplo, String -> DateTime
+Después de convertir todo a un DataFrame se tuvo que tratar los datos:
+
+1.- TRATAMIENTO df_itens_pedido
+  No se identifican valores nulos
+  No se identifican valores duplicados
+
+2.-TRATAMIENTO df_pedidos
+  No se identifican valores nulos
+  No se identifican valores duplicados
+  ***Se identifica que varia informaciòn se repite de la tabla df_pedidos, por lo cual se recomienda que la informacion sea anexada a la tabla df_itens_pedidos***
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
 
