@@ -92,7 +92,19 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 2.-TRATAMIENTO df_pedidos
   > <p>No se identifican valores nulos
   > <p>No se identifican valores duplicados
-  > <p>***Se identifica que varia informaciòn se repite de la tabla df_pedidos, por lo cual se recomienda que la informacion sea anexada a la tabla df_itens_pedidos***
+  > <p>***Se identifica que varia informaciòn se repite de la tabla df_pedidos, por lo cual se recomienda que la informacion sea anexada a una sola tabla***
+  
+3.- TRATAMIENTO df_productos
+  > <p> No se identifican valores duplicados
+  > <p> Se identifican valores 'NAN' que representa datos faltantes en columna "PRODUCTO" Y "SKU", son los mismos datos de estas columna que representan este valor Null
+  > <p> Los datos faltantes son los dos últimos productos registrados podrían indicar que hubo algún problema o falta en el proceso de registro de esos productos. Esto podría deberse a diversas razones, como errores en la entrada de datos, problemas técnicos durante el registro, o simplemente que esos productos no fueron registrados correctamente en la base de datos.
+ > <p> Es importante investigar y corregir este tipo de problemas, ya que la integridad de los datos es fundamental para realizar análisis precisos y tomar decisiones informadas. Una posible acción a tomar sería revisar el proceso de registro de productos para identificar posibles fallos y asegurarse de que todos los productos sean registrados de manera adecuada en el futuro.
+
+4.- TRATAMIENTO df_vendedores
+  > <p>Se identifica un nombre vendedor "Unknonw"
+  > <p>No se identifican valores duplicados
+  Se cambia tipos de datos
+  Se cambia tipos de datos
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
 
