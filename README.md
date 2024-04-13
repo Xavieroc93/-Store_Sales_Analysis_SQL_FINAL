@@ -271,98 +271,22 @@ Mejora del rendimiento de consultas: Al reducir el número de tablas involucrada
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/5c0591f9-632d-4aa1-9936-1dd5fc0556d9)
 
 
-<h4>Compoartamiento de los consumidores por día de la semana</h4>
+<h2> RESPONDIENDO LAS PREGUNTAS </h2>
 
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/f653ffcb-68c9-4605-9634-6ace5488c66b)
+<h3> Pregunta 1: ¿Cual es el Top 5 productos más vendidos históricamente? </h3>
 
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/7f72cb21-33ec-49aa-9f27-a2edabf5402b)
-
-<p>Esto indica que el martes y el miércoles son los días de mayor actividad en términos de número total de transacciones, destacándose como los momentos de la semana con mayor volumen de operaciones comerciales.
-
-A pesar de que el martes tiene un alto volumen de transacciones, el análisis revela que el miércoles, seguido por el lunes, son los días donde se presentan más consumos. Esto sugiere que, aunque el martes sea significativo en cuanto a la cantidad de transacciones, el miércoles y el lunes son más relevantes en términos de la cantidad de consumos, reflejando posiblemente una mayor diversidad de compras realizadas o una mayor participación de consumidores activos en estos días.
-
-Este análisis proporciona insights valiosos para la toma de decisiones en varios ámbitos del negocio:
-
-Diseñar campañas de marketing dirigidas específicamente para los lunes y miércoles, con el objetivo de captar la atención de los consumidores en los días de mayor actividad de compra. Esto puede incluir ofertas especiales, descuentos, o promociones temáticas que incentiven aún más el consumo.
-
-Asegurar que el inventario esté óptimamente preparado para satisfacer la demanda de los consumidores los lunes y miércoles, ajustando los niveles de stock basándose en los patrones de consumo observados.
-
-Alinear los recursos de operaciones, logística, y soporte al cliente para asegurar una experiencia de compra fluida durante los picos de actividad, especialmente en los días identificados como de mayor consumo.</p>
-
-<h4>Tendencia diaria</h4>
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/1eb906a6-960e-46c7-828a-1f9afcbf5f67)
-
-<p>La observación de picos altos de consumo en fechas específicas sugiere una relación significativa entre ciertos eventos o temporadas y el incremento en la actividad de compra. Estos periodos, como la Navidad, viernes Negro, son conocidos por impulsar el consumo debido a las promociones, descuentos y la naturaleza misma de las festividades, que fomentan el gasto.
-
-Para capturar y analizar el impacto de estos eventos en el comportamiento de compra, se podría considerar la creación de variables indicadoras (variables dummy) en los análisis de datos.
-
-Incorporar estas variables en modelos de análisis puede mejorar significativamente la capacidad para entender y predecir patrones de consumo, permitiendo a las empresas ajustar sus estrategias de marketing, inventario, y promociones de manera más efectiva. Además, el análisis de estas tendencias temporales puede ofrecer insights valiosos sobre el comportamiento del consumidor, ayudando a identificar oportunidades para introducir nuevos productos o servicios en momentos clave para maximizar el engagement y las ventas.</p>
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/3e66ed68-8506-4cad-b712-fb5691ac9d50)
-
-<h4>Comportamiento de los consumidores por hora del día</h4>
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/cc0c6349-ee7f-487b-b23b-e1a03387eda6)
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/88051b83-00de-479f-9f88-98b7c489d493)
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/3fa5cd5d-da73-4f22-8c87-d5ccce453acf)
-
-<p>La agrupación de las transacciones y consumos en cuatro horarios distintos es una estrategia eficaz para simplificar el análisis de datos y obtener insights más claros sobre los patrones de compra. Si las compras se presentan más en los horarios de la tarde, desde las 12:00 pm hasta las 24:00 pm, esto sugiere una tendencia clara en el comportamiento de los consumidores, preferentemente orientada hacia las actividades de compra en la segunda mitad del día.
-
-Para este tipo de análisis, se divide el día en los siguientes cuatro intervalos:
-
-Mañana (6:00 am - 12:00 pm): Este horario captura las actividades de compra temprano en el día, que pueden incluir compras impulsadas por necesidades de último minuto o la realización de pedidos planificados previamente.
-
-Tarde (12:00 pm - 18:00 pm): Este intervalo cubre las horas después del mediodía hasta el comienzo de la noche. Este periodo parece ser crítico para las transacciones y consumos, posiblemente debido a las pausas para el almuerzo o el tiempo libre que las personas pueden tener para realizar compras en línea o físicas.
-
-Noche (18:00 pm - 24:00 pm): Este periodo abarca las horas de la tarde hasta la medianoche. Las compras en este horario podrían estar influenciadas por la conclusión de la jornada laboral, compras de última hora, o actividades de ocio que incluyen compras en línea.
-
-Madrugada (0:00 am - 6:00 am): Aunque este intervalo suele tener menos actividad de compra en comparación con otros momentos del día, es importante monitorearlo para identificar comportamientos de nicho o tendencias emergentes, como compras impulsivas nocturnas o compras internacionales en zonas horarias diferentes.</p>
-
-<h3>Por otro lado...</h3>
-
-<p>También analizamos otros patrones que aportarían información valiosa a la hora de tomar decisiones:</p>
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/73308001-5264-4fbe-93c5-2d442947bfe3)
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/1a81c4a5-a624-4138-8ab2-583f51196076)
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/03adf97b-1727-4713-b065-c7d8b7431921)
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/985672d5-5a52-400b-9339-a6c817e294a2)
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/84f540fa-9be7-4662-987a-9717e6fee081)
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/7007816d-152a-4e96-acb8-bc95d15dc6ef)
-
-<h3>Nuestra variable TARGET: transactionRevenue </h3>
-
-<p>transactionRevenue: Nos indica cuánto gastó el usuario del ecommerce</p>
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/c472c5a9-ed62-42ea-8c25-78ee3bc6228e)
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/3237efb0-4f73-4568-8763-d8dd112e0cff)
 
 
-<h2>Feature Engineering</h2>
+<h3> Pregunta 2: ¿Cual es la evolución histórica de las ingresos netos? </h3>
 
-<h2>Construcción de los modelos para la predicción</h2>
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/6acfa7d7-ba27-4acd-8e76-bb5d7349e9e9)
 
-<p>Para la construcción de los modelos nos apoyamos en múltiples opciones para poder obtener lo mejor de cada algoritmo de Machine Learning</p>
-  
-  1. LinearRegression
-  2. Random Forest Regression
-  3. XGBoost
-  4. LightGBM
-  5. CatBoost
-  6. Votación
+<h3>Pregunta 3: ¿Cuáles son los ingresos netos por vendedor por año? </h3>
 
-<h2>Evaluación de los modelos</h2>
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/d63ba4ab-512a-4755-996a-e64e1424b199)
 
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/f0a00d2c-7ec4-41b6-ba5e-81d4a98fe337)
+<h3> Pregunta 4: ¿Cuáles son las ciudades que proporcionan mayores ingresos netos? </h3>
 
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/22287b64-6e72-436c-9166-8c39f46661a1)
-
-
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/9bcf60ab-f2dc-4e78-83dc-cf069236fecf)
 
