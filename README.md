@@ -3,7 +3,8 @@
 <h1>ANÁLISIS DE DATOS EN LA TIENDA DE MODA ONLINE-Store_Sales_Analysis_SQL</h1>
 
 > [!NOTE]
-> Este es un proyecto que pretende analizar datos de una tienda online de Brasil y poder dar insights valiosos a la empresa sobre sus preguntas de negocio
+> Este proyecto está diseñado para realizar un análisis exhaustivo de los datos de una destacada tienda online en Brasil. Nuestro objetivo es responder a preguntas críticas de negocio, explorar profundamente el comportamiento del mercado y proporcionar insights estratégicos que apoyen el crecimiento y la optimización de la empresa. A través de un enfoque analítico riguroso, buscamos identificar oportunidades, optimizar operaciones y fortalecer la posición de la tienda en su sector competitivo. Este análisis no solo clarificará los desafíos actuales sino que también guiará las decisiones empresariales hacia resultados tangibles y mejoras sostenibles.
+> Preguntas solictadas por la empresa a responder
 1. ¿Cual es el Top 5 productos más vendidos históricamente?
 
 2. ¿Cual es la evolución histórica de las ingresos netos?
