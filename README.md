@@ -4,7 +4,8 @@
 
 > [!NOTE]
 > Este proyecto está diseñado para realizar un análisis exhaustivo de los datos de una destacada tienda online en Brasil. Nuestro objetivo es responder a preguntas críticas de negocio, explorar profundamente el comportamiento del mercado y proporcionar insights estratégicos que apoyen el crecimiento y la optimización de la empresa. A través de un enfoque analítico riguroso, buscamos identificar oportunidades, optimizar operaciones y fortalecer la posición de la tienda en su sector competitivo. Este análisis no solo clarificará los desafíos actuales sino que también guiará las decisiones empresariales hacia resultados tangibles y mejoras sostenibles.
-> Preguntas solictadas por la empresa a responder
+
+Preguntas solictadas por la empresa a responder
 1. ¿Cual es el Top 5 productos más vendidos históricamente?
 
 2. ¿Cual es la evolución histórica de las ingresos netos?
@@ -22,7 +23,9 @@
 <h2>Problema del negocio</h2>
 
 <table><tr><td> 
-La necesidad de prever y optimizar el gasto de sus usuarios ha llevado a una empresa de comercio electrónico a buscar soluciones innovadoras. Como científicos de datos, hemos sido convocados para desarrollar un modelo de machine learning que pueda predecir con precisión cuánto gastará un usuario al visitar dicho sitio web.
+Ante la necesidad imperativa de prever y optimizar el gasto de los usuarios, una prominente empresa de comercio electrónico ha iniciado la búsqueda de soluciones innovadoras. En este contexto, nuestro equipo de científicos de datos ha sido convocado para llevar a cabo un análisis exhaustivo del comportamiento de ventas de la empresa. Este estudio no solo abarcará las operaciones de ventas generales, sino que también se extenderá al desempeño de los vendedores, la dinámica de los productos y las tendencias emergentes del mercado.
+
+El objetivo es proporcionar un entendimiento profundo que permita a la empresa no solo anticipar las tendencias futuras, sino también implementar estrategias efectivas para maximizar los beneficios y mejorar la satisfacción del cliente. A través de este análisis, buscamos identificar patrones clave, detectar oportunidades de crecimiento y ofrecer recomendaciones basadas en datos que guíen a la empresa hacia decisiones estratégicas acertadas en su competitivo entorno de mercado.
 </td></tr></table>
 
 <h2>Stack de tecnologías</h2>
@@ -36,13 +39,24 @@ La necesidad de prever y optimizar el gasto de sus usuarios ha llevado a una emp
 > [!IMPORTANT] 
 > Se requiere importar las siguientes tecnologías librerías para poder trabajar con el proyecto
 > ```
-> import pandas
-> import numpy
-> import matplotlib.pyplot
-> import seaborn
-> import sknlearn
-> import xgboost
-> import lightgbm
+import geobr
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.patches import FancyBboxPatch
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+import matplotlib.dates as mdates
+from matplotlib.ticker import FuncFormatter
+import matplotlib.ticker as ticker
+import geopandas as gpd
+from matplotlib.patheffects import withStroke
+import requests
+from io import BytesIO
+import matplotlib.pyplot as plt
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+from io import BytesIO
+from sqlalchemy import create_engine, MetaData, Table, inspect, text
 > ```
 
 <h2>Pre-procesamiento de los datos</h2>
