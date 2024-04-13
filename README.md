@@ -254,27 +254,22 @@ Mejora del rendimiento de consultas: Al reducir el número de tablas involucrada
 <h4>1. Creación de la Tabla transacciones_pedidos </h4>
 <p>Al almacenar tanto la fecha como la hora de cada transacción, obtienes una granularidad de datos que permite análisis más detallados, como identificar picos de venta por hora o evaluar la eficiencia de la logística y entrega. Esta precisión puede ser crucial para optimizar operaciones, entender el comportamiento del consumidor y tomar decisiones informadas
 
-  <p> id_recibo: Usar INT es adecuado para un identificador que no será la clave primaria
-  <p> producto_id NOT NULL y vendedor_id: Establecer como NOT NULL asegura que cada transacción debe estar asociada con un producto y un vendedor, manteniendo la    <p> integridad de los datos. *pedido_id INT PRIMARY KEY:Designado como PRIMARY KEY asegura unicidad y optimiza las búsquedas y relaciones. *cantidad,              <p> valor_unitario, valor_total, costo_envio: Elegir DECIMAL(10,2) para valores monetarios proporciona precisión en cálculos financieros. *ciudad CHAR(5): Asumiendo que el código de ciudad siempre tiene 5 caracteres, CHAR(5) es eficiente en términos de almacenamiento, al tener longitud fija.</p>
+  > <p> id_recibo: Usar INT es adecuado para un identificador que no será la clave primaria
+  > <p> producto_id NOT NULL y vendedor_id: Establecer como NOT NULL asegura que cada transacción debe estar asociada con un producto y un vendedor, manteniendola integridad de los datos. *pedido_id INT PRIMARY KEY:Designado como PRIMARY KEY asegura unicidad y optimiza las búsquedas y relaciones. *cantidad,            
+  > <p> valor_unitario, valor_total, costo_envio: Elegir DECIMAL(10,2) para valores monetarios proporciona precisión en cálculos financieros. *ciudad CHAR(5): Asumiendo que el código de ciudad siempre tiene 5 caracteres, CHAR(5) es eficiente en términos de almacenamiento, al tener longitud fija.</p>
 
-<h4>1. Creación de la Tabla producto </h4>
-  <p> producto VARCHAR NOT NULL:. Asumir datos siempre presentes con NOT NULL es crucial para la integridad.
-  <p> precio DECIMAL(10,2) NOT NULL: Asegura precisión en el almacenamiento de precios.
-  <p> marca VARCHAR, condicion VARCHAR(28): Se recomienda especificar una longitud máxima para VARCHAR, basada en la longitud esperada más común para estos campos.
+<h4>2. Creación de la Tabla producto </h4>
+  > <p> producto VARCHAR NOT NULL:. Asumir datos siempre presentes con NOT NULL es crucial para la integridad.
+  > <p> precio DECIMAL(10,2) NOT NULL: Asegura precisión en el almacenamiento de precios.
+  > <p> marca VARCHAR, condicion VARCHAR(28): Se recomienda especificar una longitud máxima para VARCHAR, basada en la longitud esperada más común para estos campos.
 
-<h4>5. Creación de la Tabla vendedores</h4>
-  <p>Nombre_vendedor VARCHAR(255) NOT NULL: VARCHAR(255) es un estándar de la industria para textos cortos, permitiendo flexibilidad en los nombres sin desperdiciar espacio.</p>
+<h4>3. Creación de la Tabla vendedores</h4>
+  > <p> Nombre_vendedor VARCHAR(255) NOT NULL: VARCHAR(255) es un estándar de la industria para textos cortos, permitiendo flexibilidad en los nombres sin desperdiciar espacio.</p>
 
-<h4>6. Visitas de origen directo</h4>
-<p>El 64.02% de las visitas fueron clasificadas como directas, indicando que una mayoría de los consumidores acceden al sitio sin interaccion en otras paginas de consulta de compras, lo cual puede reflejar un hábito de compra establecido en el comercio electrónico.</p>
+<h3> Sugerimos una Base de datos de la siguiente manera:...</h3>
 
-<h4>7. Patrones temporales</h4>
-<p>Los usuarios tienden a visitar el sitio más frecuentemente por la tarde, con un promedio de las 14:17 horas, y durante la mitad del año (junio y julio aproximadamente), con un mes promedio de 6.65.</p>
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/5c0591f9-632d-4aa1-9936-1dd5fc0556d9)
 
-<h4>8. Recurrencia</h4>
-<p>La frecuencia promedio de visitas es de aproximadamente 3.49 veces, lo que sugiere un nivel de lealtad y recurrencia entre los consumidores.</p>
-
-<h3>Además...</h3>
 
 <h4>Compoartamiento de los consumidores por día de la semana</h4>
 
