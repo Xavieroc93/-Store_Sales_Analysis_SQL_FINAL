@@ -195,7 +195,33 @@ Paulo Calanca fue el vendedor con mayores ventas acumuladas desde 2019 hasta 202
 
 <p> Feedback Regular: Establecer sesiones de retroalimentación con Paulo para entender sus desafíos y ajustar su enfoque de ventas según sea necesario.
 
+<h3> PRODUCTOS </h3>
 
+Distribución de Precios: Nuestra evaluación revela que la mayoría de los productos se ofrecen a precios accesibles, lo que indica una estrategia orientada hacia productos de menor costo y alta rotación. Esto podría ser un reflejo de una táctica deliberada para atraer a un segmento de mercado más amplio que busca opciones económicas.
+
+Dominio de Marcas: Marcas como Zara, Mixed, Animale, Le Lis Blanc y Banana Republic dominan nuestro inventario en términos de volumen. Esta concentración de marcas conocidas podría ser explotada para fortalecer la imagen de marca y la lealtad del cliente mediante campañas de marketing específicas.
+
+Condición de los Productos: La prevalencia de productos usados sugiere que nuestra tienda podría estar especializándose en el mercado de moda de segunda mano. Esta es una excelente oportunidad para posicionarnos como líderes en moda sostenible, a través de iniciativas de reciclaje y reutilización.
+
+**Variabilidad de las Ventas: **Las fluctuaciones en las ventas a lo largo del tiempo nos indican patrones estacionales, lo que puede ser crucial para planificar inventarios y promociones de manera más efectiva, alineando nuestras estrategias de marketing con los picos de demanda.
+
+Productos más Vendidos: Artículos como Bolsas Classica Roxa, Bolsa Intrecciato Caramelo y Sapato Cetim Pink son nuestros más vendidos, lo que subraya la importancia de mantener un buen stock de estos productos y centrar en ellos nuestras estrategias promocionales.
+
+Análisis de Ventas y Costos por Ciudad
+
+Distribución de Ventas: Nuestro análisis regional muestra que ciertas ciudades generan más ingresos que otras, lo que podría guiar la distribución de nuestros esfuerzos de marketing y optimización logística para capitalizar sobre estas áreas de alto rendimiento.
+
+Costo de Envío: La ciudad que tiene los mayores costo de envio es BR-AL, seguido de BR-PE y el mayor cotos de envio promedio es de BR-AP , BR-SC y BR-CE respectivamente, indicativo de quien genera mas costos por los volumenes de ventas a quien tiene un mayor costo pormedio que se tendra que revisar que lo ocasiona.
+
+Recomendaciones Estratégicas
+
+Optimización de Inventario: Priorizar el mantenimiento de un stock adecuado de los productos más vendidos y reevaluar la estrategia para aquellos con menor salida.
+
+Estrategia de Precios Dinámicos: Implementar una estrategia de precios dinámicos que se adapte a las fluctuaciones del mercado y a eventos especiales, para maximizar los ingresos y la competitividad.
+
+Marketing Personalizado: Desarrollar campañas de marketing enfocadas en las ciudades con mayores ventas y segmentar los esfuerzos promocionales para dirigirse a clientes específicos basados en sus patrones de compra.
+
+Mejora Logística: Explorar opciones para reducir los costos de envío en las áreas más costosas y considerar la posibilidad de establecer almacenes en regiones estratégicas para mejorar los tiempos de entrega y reducir costos.
 
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
