@@ -112,11 +112,44 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
 <p>A partir de nuestro análisis exploratorio inicial, hemos obtenido perspectivas preliminares de los datos.</p>
 
-<h4>1. EVOLUCIOND DE VENTAS </h4>
+<h4> EVOLUCION DE VENTAS </h4>
 <p>Se observó que el pico más alto en las ventas ocurrió el 24/11/2019, influenciado por dos eventos significativos en Brasil:</p>
->1.- Impacto del Black Friday: Este evento atrae a consumidores a aprovecha
->2.- Victoria del Flamengo: La coincidencia de esta fecha con la celebración de Flamengo por ganar el Brasileirão y la Copa Libertadores pudo contribuir un clima de euforia nacional.
-La sinergia entre las promociones de Black Friday y la celebración deportiva pudo haber creado un ambiente excepcionalmente propicio para el consumo, lo cual fue estratégicamente aprovechado por la empresa para maximizar ingresos, implementando campañas de marketing que resonaron con el sentimiento colectivo de celebración.
+
+  <p>1.- Impacto del Black Friday: Este evento atrae a consumidores a aprovecha
+  <p>2.- Victoria del Flamengo: La coincidencia de esta fecha con la celebración de Flamengo por ganar el Brasileirão y la Copa Libertadores pudo contribuir un clima de euforia nacional.
+<p> La sinergia entre las promociones de Black Friday y la celebración deportiva pudo haber creado un ambiente excepcionalmente propicio para el consumo, lo cual fue estratégicamente aprovechado por la empresa para maximizar ingresos, implementando campañas de marketing que resonaron con el sentimiento colectivo de celebración.
+
+<h3>Tendencia Decreciente</h3>
+
+<p> Los datos indican una tendencia decreciente en las ventas en varias fechas de enero de 2019, específicamente el 27, 14, 15, 10, 6, 7, 8, 21, 11 y 9. Este patrón puede atribuirse a factores estacionales y económicos comunes en este período:
+
+<p> Finalización de la Temporada Navideña: Las ventas suelen disminuir tras el fin de las festividades de diciembre, ya que los consumidores reducen sus gastos después de un período de compras intensas.
+
+<p> Inicio del Año Fiscal: El comienzo de enero marca a menudo el inicio del año fiscal en varios lugares, lo que puede llevar a un comportamiento conservador en el gasto mientras los individuos y familias establecen sus presupuestos para el nuevo año.
+
+<p> Efecto de la Cuesta de Enero: Enero es conocido por ser un mes donde los consumidores enfrentan restricciones presupuestarias después de los gastos de fin de año, lo que se refleja en una reducción notable en las ventas minoristas.
+
+<h3> Ventas por dia de la semama </h3>
+
+<p> El análisis de las ventas por día de la semana revela que los jueves, sábados y viernes son los días con mayores ventas, lo cual sugiere una oportunidad para intensificar las campañas de marketing durante estos días para maximizar los ingresos. Por otro lado, los lunes y martes muestran las menores ventas, indicando la necesidad de mejorar las estrategias promocionales en estos días para incrementar las transacciones. Estos insights pueden guiar la planificación de promociones y ofertas específicas para atraer más clientes en los días de menor rendimiento.
+
+<h3> Comparaciòn Anual Ventas <h3>
+
+<p> Tras un analisis sobre el crecimiento de las ventas entre 2019 y 2020 muestra un aumento significativo del 78%, reflejando un notable desarrollo en el comercio durante ese período. Para el año 2021, las ventas representan solo un 8% en comparación con el año anterior, lo cual es razonable considerando que los datos disponibles solo cubren hasta el inicio del primer trimestre.
+
+<p> Para mantener y potenciar la tendencia positiva del crecimiento de ventas observado entre 2019 y 2020, es fundamental implementar estrategias basadas en un análisis profundo del comportamiento del consumidor y las tendencias del mercado.
+
+  <p> Análisis Predictivo: Continuar utilizando datos para prever tendencias futuras y adaptar las estrategias de marketing y ventas de manera proactiva.
+
+  <p>Optimización de la Experiencia del Cliente: Mejorar la experiencia de compra online y en tienda, asegurando que los procesos sean eficientes y centrados en el cliente.
+
+  <p>Personalización: Utilizar la tecnología para ofrecer promociones personalizadas y recomendaciones de productos basadas en el historial de compra y preferencias del cliente.
+
+  <p>Diversificación de Productos y Servicios: Expandir el catálogo de productos para explorar nuevas categorías que puedan atraer a diferentes segmentos de clientes.
+
+  <p>Refuerzo de Campañas en Días Clave: Intensificar las campañas de marketing durante los días de mayor venta y diseñar promociones específicas para los días de menor venta para equilibrar la distribución de la demanda a lo largo de la semana.
+
+  <p>Estas estrategias no solo ayudarán a mantener el crecimiento de las ventas, sino también a adaptarse mejor a los cambios del mercado y a las expectativas de los consumidores.
 
 
 <h4> 2. Uso de dispositivos móbiles (isMobile) </h4>
