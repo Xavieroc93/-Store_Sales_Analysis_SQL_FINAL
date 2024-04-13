@@ -63,15 +63,16 @@ El objetivo es proporcionar un entendimiento profundo que permita a la empresa n
 
 En este apartado desargaremos los datos con los cuales trabajaremos
 
-<h3>Diccionarios/JSON -> Dataframes</h3>
-Encontramos en los datos estructuras no muy amigables para el trabajo de un científico de datos pero a través de herramientas que nos provee Pandas supimos resolverlo
+<h3>Cargando las bases de datos</h3>
 <br>
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/c966a26e-1d77-4981-835a-a6d619626b59)
-
-El resultado:
-
-![image](https://github.com/pabloing93/consumer_spending/assets/32267303/69af82ca-2243-4b1d-b807-a24ccdc2cccc)
+df_itens_pedidos = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/itens_pedidos.csv')
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/50e314e0-a2c3-4ba7-b9ce-9cd58be75666)
+df_pedidos = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/pedidos.csv')
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/e236b252-ca59-4c77-bf70-0ab10e1ac915)
+df_productos = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/productos.csv')
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/1f32c945-ead8-4793-8242-69a126194dc3)
+df_vendedores = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/vendedores.csv')
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/198e2636-a8f5-4354-ac73-2af5a590763e)
 
 <h3>Preprocesamiento general</h3>
 
