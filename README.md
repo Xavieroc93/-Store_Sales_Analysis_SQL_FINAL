@@ -363,3 +363,8 @@ La empresa podría haber diseñado su modelo de precios para incorporar un marge
 2. Se analizó la evolución histórica de las ventas por productos, el comportamiento por vendedor y la distribución geográfica a nivel nacional, lo que permite tener un conocimiento cabal del desarrollo histórico de las ventas y la representatividad asociada a cada vendedor y región del país.
    
 3. Con el objeto de impulsar el rendimiento, mejorar la eficiencia y reducir costos se sugiere implementar diversas campañas promocionales como la llevada a cabo el día 24/11 (Black Friday) distribuidas a lo largo del año. Capacitar o fortalecer las competencias de los vendedores menos eficientes. Eliminar la distribución de productos en las regiones menos rentables, fortalecer y sobreponderar la distribución logística en las regiones que representan menores costes de envío y mayor rentabilidad para la empresa.
+
+> [!IMPORTANT]
+> Esto fue un proyecto que participamos los miembros del canal del
+> 
+>[![](https://img.shields.io/youtube/channel/subscribers/UCuerQOTskuNkddcT738357g?style=for-the-badge&logo=youtube&label=ElProfeAlejo)](https://www.youtube.com/@ElProfeAlejo)
