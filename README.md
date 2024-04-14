@@ -268,7 +268,7 @@ Facilita la gestión de datos: Al tener una sola tabla que contenga toda la info
 
   > <p> Nombre_vendedor VARCHAR(255) NOT NULL: VARCHAR(255) es un estándar de la industria para textos cortos, permitiendo flexibilidad en los nombres sin desperdiciar espacio.</p>
 
-<h3> Sugerimos una Base de datos de la siguiente manera:...</h3>
+<h3> SUGERIMOS UNA BASE DE DATOS CON LAS SIGUIENTES RELACIONES </h3>
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/5c0591f9-632d-4aa1-9936-1dd5fc0556d9)
 
@@ -279,7 +279,12 @@ Facilita la gestión de datos: Al tener una sola tabla que contenga toda la info
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/3237efb0-4f73-4568-8763-d8dd112e0cff)
 
+<p> Conclusiones:</p> 
 
+> Si consideramos el top 5 de productos más vendidos históricamente el que más sobresale es "Saia Midi Cinto" con 549 ventas lo que se traduce en ingresos por $115.000. 
+
+> El producto que mayores ingresos reporto a la empresa es "Vestido Nude Reta" con 301.000 💵 y 547 unidades vendidas. Por el contrario, el que menos ingresos produjo fue "Camisa Xadrez Azul" con $61.000 y 511 unidades. El promedio de unidades vendidas en el top 5 es 530.
+ 
 <h3> Pregunta 2: ¿Cual es la evolución histórica de las ingresos netos? </h3>
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/6acfa7d7-ba27-4acd-8e76-bb5d7349e9e9)
