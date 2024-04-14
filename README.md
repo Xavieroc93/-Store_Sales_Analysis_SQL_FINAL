@@ -1,6 +1,6 @@
 
 
-<h1>ANÁLISIS DE DATOS EN LA TIENDA DE MODA ONLINE-Store_Sales_Analysis_SQL</h1>
+<h1>ANÁLISIS DE VENTA DE UNA TIENDA DE MODA ONLINE (SQL) </h1>
 
 > [!NOTE]
 > Este proyecto está diseñado para realizar un análisis exhaustivo de los datos de una destacada tienda online en Brasil. Nuestro objetivo es responder a preguntas críticas de negocio, explorar profundamente el comportamiento del mercado y proporcionar insights estratégicos que apoyen el crecimiento y la optimización de la empresa. A través de un enfoque analítico riguroso, buscamos identificar oportunidades, optimizar operaciones y fortalecer la posición de la tienda en su sector competitivo. Este análisis no solo clarificará los desafíos actuales sino que también guiará las decisiones empresariales hacia resultados tangibles y mejoras sostenibles.
@@ -23,6 +23,7 @@ Preguntas solictadas por la empresa a responder
 <h2>Problema del negocio</h2>
 
 <table><tr><td> 
+  
 Ante la necesidad imperativa de prever y optimizar el gasto de los usuarios, una prominente empresa de comercio electrónico ha iniciado la búsqueda de soluciones innovadoras. En este contexto, nuestro equipo de científicos de datos ha sido convocado para llevar a cabo un análisis exhaustivo del comportamiento de ventas de la empresa. Este estudio no solo abarcará las operaciones de ventas generales, sino que también se extenderá al desempeño de los vendedores, la dinámica de los productos y las tendencias emergentes del mercado.
 
 El objetivo es proporcionar un entendimiento profundo que permita a la empresa no solo anticipar las tendencias futuras, sino también implementar estrategias efectivas para maximizar los beneficios y mejorar la satisfacción del cliente. A través de este análisis, buscamos identificar patrones clave, detectar oportunidades de crecimiento y ofrecer recomendaciones basadas en datos que guíen a la empresa hacia decisiones estratégicas acertadas en su competitivo entorno de mercado.
@@ -103,12 +104,8 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 4.- TRATAMIENTO df_vendedores
   > <p>Se identifica un nombre vendedor "Unknonw"
   > <p>No se identifican valores duplicados
-  Se cambia tipos de datos
-  Se cambia tipos de datos
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
-
-<h3>Estadística Descriptiva</h3>
 
 <p>A partir de nuestro análisis exploratorio inicial, hemos obtenido perspectivas preliminares de los datos.</p>
 
@@ -117,7 +114,7 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/d33979c1-f51f-481c-8f37-be1475f2cf88)
 
-  <p>1.- Impacto del Black Friday: Este evento atrae a consumidores a aprovecha
+  <p>1.- Impacto del Black Friday: Este evento pudo atraer consumidores a aprovechar las ofertas y descuentos significativosque la empresa promociono en esta fecha. Al ser un evento anual altamente anticipado, el Black Friday genera un incremento notable en el tráfico de compradores, es muy probable que la empresa genero camañas agresivas y promociones que genero un aumento sustancial en las ventas durante este período.
   <p>2.- Victoria del Flamengo: La coincidencia de esta fecha con la celebración de Flamengo por ganar el Brasileirão y la Copa Libertadores pudo contribuir un clima de euforia nacional.
 <p> La sinergia entre las promociones de Black Friday y la celebración deportiva pudo haber creado un ambiente excepcionalmente propicio para el consumo, lo cual fue estratégicamente aprovechado por la empresa para maximizar ingresos, implementando campañas de marketing que resonaron con el sentimiento colectivo de celebración.
 
