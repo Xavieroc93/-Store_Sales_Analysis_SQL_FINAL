@@ -250,18 +250,22 @@ Facilita la gestión de datos: Al tener una sola tabla que contenga toda la info
 <h3>CREACION DE BASE DE DATOS EN MYSQL</h3>
 
 <h4>1. Creación de la Tabla transacciones_pedidos </h4>
-<p>Al almacenar tanto la fecha como la hora de cada transacción, obtienes una granularidad de datos que permite análisis más detallados, como identificar picos de venta por hora o evaluar la eficiencia de la logística y entrega. Esta precisión puede ser crucial para optimizar operaciones, entender el comportamiento del consumidor y tomar decisiones informadas
+<p> Capturar en el campo fecha tambien la hora: Al almacenar tanto la fecha como la hora de cada transacción, obtienes una granularidad de datos que permite análisis más detallados, como identificar picos de venta por hora o evaluar la eficiencia de la logística y entrega. Esta precisión puede ser crucial para optimizar operaciones, entender el comportamiento del consumidor y tomar decisiones informadas
 
   > <p> id_recibo: Usar INT es adecuado para un identificador que no será la clave primaria
-  > <p> producto_id NOT NULL y vendedor_id: Establecer como NOT NULL asegura que cada transacción debe estar asociada con un producto y un vendedor, manteniendola integridad de los datos. *pedido_id INT PRIMARY KEY:Designado como PRIMARY KEY asegura unicidad y optimiza las búsquedas y relaciones. *cantidad,            
-  > <p> valor_unitario, valor_total, costo_envio: Elegir DECIMAL(10,2) para valores monetarios proporciona precisión en cálculos financieros. *ciudad CHAR(5): Asumiendo que el código de ciudad siempre tiene 5 caracteres, CHAR(5) es eficiente en términos de almacenamiento, al tener longitud fija.</p>
+  > <p> producto_id NOT NULL y vendedor_id: Establecer como NOT NULL asegura que cada transacción debe estar asociada con un producto y un vendedor, manteniendola integridad de los datos. 
+  > <p> pedido_id INT PRIMARY KEY:Designado como PRIMARY KEY asegura unicidad y optimiza las búsquedas y relaciones. 
+  > <p> cantidad,valor_unitario, valor_total, costo_envio: Elegir DECIMAL(10,2) para valores monetarios proporciona precisión en cálculos financieros.
+  > <p> ciudad CHAR(5): Asumiendo que el código de ciudad siempre tiene 5 caracteres, CHAR(5) es eficiente en términos de almacenamiento, al tener longitud fija.</p>
 
 <h4>2. Creación de la Tabla producto </h4>
+
   > <p> producto VARCHAR NOT NULL:. Asumir datos siempre presentes con NOT NULL es crucial para la integridad.
   > <p> precio DECIMAL(10,2) NOT NULL: Asegura precisión en el almacenamiento de precios.
   > <p> marca VARCHAR, condicion VARCHAR(28): Se recomienda especificar una longitud máxima para VARCHAR, basada en la longitud esperada más común para estos campos.
 
 <h4>3. Creación de la Tabla vendedores</h4>
+
   > <p> Nombre_vendedor VARCHAR(255) NOT NULL: VARCHAR(255) es un estándar de la industria para textos cortos, permitiendo flexibilidad en los nombres sin desperdiciar espacio.</p>
 
 <h3> Sugerimos una Base de datos de la siguiente manera:...</h3>
