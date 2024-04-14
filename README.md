@@ -315,6 +315,46 @@ Facilita la gestión de datos: Al tener una sola tabla que contenga toda la info
 
 > En el extremo opuesto se encuentran Matogrosso do Sul con $1.2M y Acre con $1.5M.
 
+<h3>Pregunta 5: insight adicional </h3>
+
+![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/0d979056-7f90-4c87-9473-39394e830a4a)
+
+<p> Conclusiones:</p>
+
+< PRODUCTOS CON MAYORES BENEFICIOS NETOS
+
+<Los productos con mayor beneficio neto en la tienda online claramente disfrutan de una demanda sólida y sostenida, reflejando una fuerte percepción de valor por parte de los consumidores. Este éxito en términos de beneficio neto suele estar impulsado por elementos distintivos como la exclusividad y el reconocimiento de la marca. Estos factores no solo atraen a un segmento de mercado dispuesto a pagar, sino que también ayudan a cimentar la lealtad del cliente y la identidad de la marca, creando un ciclo positivo de demanda y rentabilidad.
+
+<Estrategias Sugeridas:
+
+<*   Maximizar la Visibilidad: Incrementar la visibilidad de estos productos mediante promociones y ubicaciones destacadas en la tienda online.
+
+<*   Controlar el Inventario de Manera Efectiva: Asegurar un buen equilibrio en el inventario para evitar excesos que puedan llevar a descuentos innecesarios.
+
+
+<PRODUCTOS CON MAYORES BENEFICIOS NETOS
+
+<Estos productos podrían enfrentar desafíos en términos de demanda debido a tendencias de mercado cambiantes, competencia superior, o desajustes con las expectativas del consumidor.
+
+<Estrategias Sugeridas:
+
+<*   Reevaluación de la Estrategia de Precios: Considerar ajustes en los precios si el mercado lo permite, sin comprometer la percepción de calidad.
+
+<*   Optimización de la Cadena de Suministro: Buscar maneras de reducir los costos de operación, posiblemente negociando mejores tarifas con proveedores o revisando las rutas logísticas.
+
+<*   Análisis de Mercado para Reubicación o Descontinuación del Producto: Determinar si estos productos aún se alinean con la estrategia de la empresa y considerar la posibilidad de descontinuarlos si no generan valor suficiente.
+
+<**COSTO DE ENVIO FIJO DEL 20% DE LA COMPRA TOTAL**
+
+<Se identifica que los costos de envío representan consistentemente el 20% del valor totalde la venta, esto podría ser el resultado de varias prácticas y estrategias empresariales deliberadas.
+
+<*   1. Estrategia de Precios Uniforme: La empresa podría haber adoptado una estrategia de precios uniforme donde los costos de envío se calculan como un porcentaje fijo del precio de venta. Esto puede simplificar la estructura de precios y hacer que los costos sean predecibles tanto para la empresa como para los clientes.
+
+<*   2. Acuerdos de Envío Establecidos: Podría existir un acuerdo con proveedores de servicios de envío que establezca tarifas basadas en el valor del producto. Este tipo de acuerdos es común en industrias donde el valor del contenido puede influir en el costo del seguro y el manejo durante el transporte.
+
+<*   3. Margen de Beneficio Incorporado
+La empresa podría haber diseñado su modelo de precios para incorporar un margen de beneficio que contemple explícitamente estos costos de envío. De esta manera, los precios finales reflejan un equilibrio entre cubrir los costos y generar ganancias, manteniendo el porcentaje de costos de envío constante.
+
 <h2> Conclusiones finales </h2>
 
 1. El analisis de la información precedentemente expuesta refleja importantes observaciones sobre la problemática de negocios y su evolución histórica que permite influir en la toma de decisiones estratégicas, con el objeto de impulsar el rendimiento.
