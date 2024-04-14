@@ -15,7 +15,6 @@ Preguntas solictadas por la empresa a responder
 4. ¿Cuáles son las ciudades que proporcionan mayores ingresos netos?
 
 5. ¿Existe otro insight que puedas proporcionar?
-> . <br>
 
 > [!CAUTION]
 > Utilizar con fines educativos :octocat:
