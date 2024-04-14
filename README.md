@@ -332,7 +332,7 @@ Estrategias Sugeridas:
   Controlar el Inventario de Manera Efectiva: Asegurar un buen equilibrio en el inventario para evitar excesos que puedan llevar a descuentos innecesarios.
 
 
-PRODUCTOS CON MAYORES BENEFICIOS NETOS
+PRODUCTOS CON MENORES BENEFICIOS NETOS
 
 Estos productos podrían enfrentar desafíos en términos de demanda debido a tendencias de mercado cambiantes, competencia superior, o desajustes con las expectativas del consumidor.
 
@@ -344,7 +344,7 @@ Estrategias Sugeridas:
 
   Análisis de Mercado para Reubicación o Descontinuación del Producto: Determinar si estos productos aún se alinean con la estrategia de la empresa y considerar la posibilidad de descontinuarlos si no generan valor suficiente.
 
-COSTO DE ENVIO FIJO DEL 20% DE LA COMPRA TOTAL**
+COSTO DE ENVIO FIJO, REPRESENTA EL 20% DE LA COMPRA TOTAL
 
   Se identifica que los costos de envío representan consistentemente el 20% del valor totalde la venta, esto podría ser el resultado de varias prácticas y estrategias empresariales deliberadas.
 
