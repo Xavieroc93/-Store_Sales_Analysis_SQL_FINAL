@@ -289,11 +289,36 @@ Facilita la gestión de datos: Al tener una sola tabla que contenga toda la info
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/6acfa7d7-ba27-4acd-8e76-bb5d7349e9e9)
 
+<p> Conclusiones:</p>
+
+> El promedio histórico de ingresos netos diarios asciende a la cifra de 80.000 desde el 2020. 
+
+> Destacando un volumen histórico en ventas el día 24 de noviembre de 2019 alcanzadonse un ingreso neto de 289.000 donde sobresalen marcas como Barbara Bela y Givency con un 7% cada una sobre el total vendido.
+
 <h3>Pregunta 3: ¿Cuáles son los ingresos netos por vendedor por año? </h3>
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/d63ba4ab-512a-4755-996a-e64e1424b199)
+
+<p> Conclusiones:</p>
+
+> En relación a los ingresos por vendedor podemos destacar a Ana Duarte y Daniel Siqueira quienes superaron los cinco millones en ventas el año 2020, con un aumento significativo sobre el año anterior. 
+
+> Nadia Oliveira y Milena Pereira también aumentaron su meta respecto del año anterior aunque en menor medida. Sin embargo, Paulo Calanca disminuyo más de un 2% sus ventas respecto de año anterior.
 
 <h3> Pregunta 4: ¿Cuáles son las ciudades que proporcionan mayores ingresos netos? </h3>
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/9bcf60ab-f2dc-4e78-83dc-cf069236fecf)
 
+<p> Conclusiones:</p>
+
+> Las ciudades que representan mayores ingresos son Alagoas con $1.52M. y Pernambuco con $1.51M. Seguidas de Amapá y Santa Catarina con $1.48M. 
+
+> En el extremo opuesto se encuentran Matogrosso do Sul con $1.2M y Acre con $1.5M.
+
+<h2> Conclusiones finales </h2>
+
+1. El analisis de la información precedentemente expuesta refleja importantes observaciones sobre la problemática de negocios y su evolución histórica que permite influir en la toma de decisiones estratégicas, con el objeto de impulsar el rendimiento.
+   
+2. Se analizó la evolución histórica de las ventas por productos, el comportamiento por vendedor y la distribución geográfica a nivel nacional, lo que permite tener un conocimiento cabal del desarrollo histórico de las ventas y la representatividad asociada a cada vendedor y región del país.
+   
+3. Con el objeto de impulsar el rendimiento, mejorar la eficiencia y reducir costos se sugiere implementar diversas campañas promocionales como la llevada a cabo el día 24/11 (Black Friday) distribuidas a lo largo del año. Capacitar o fortalecer las competencias de los vendedores menos eficientes. Eliminar la distribución de productos en las regiones menos rentables, fortalecer y sobreponderar la distribución logística en las regiones que representan menores costes de envío y mayor rentabilidad para la empresa.
