@@ -63,7 +63,7 @@ El objetivo es proporcionar un entendimiento profundo que permita a la empresa n
 
 <h2>Obtención de datos</h2>
 
-En este apartado desargaremos los datos con los cuales trabajaremos
+En este apartado descargaremos los datos con los cuales trabajaremos
 
 <h3>Cargando las bases de datos</h3>
 <br>
