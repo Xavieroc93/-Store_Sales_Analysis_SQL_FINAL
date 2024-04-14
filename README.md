@@ -140,7 +140,7 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/bf1bd12e-d883-47c9-8d7b-c4b0e6d8e572)
 
-<p> Para mantener y potenciar la tendencia positiva del crecimiento de ventas observado entre 2019 y 2020, es fundamental implementar estrategias basadas en un análisis profundo del comportamiento del consumidor y las tendencias del mercado.
+<p> Para mantener y potenciar la tendencia positiva del crecimiento de ventas observado entre 2019 y 2020, es fundamental implementar estrategias basadas en un análisis profundo del comportamiento del consumidor y las tendencias del mercado, entre las estrategias que recomendamos son las siguientes:
 
   <p> Análisis Predictivo: Continuar utilizando datos para prever tendencias futuras y adaptar las estrategias de marketing y ventas de manera proactiva.
 
@@ -242,9 +242,10 @@ Se ha observado que tanto la tabla df_itens_pedidos como la tabla df_pedidos com
 
 Razones
 
-Reducción de redundancia: Al combinar las tablas, evitamos duplicar información y reducimos la redundancia de datos. Esto conduce a un uso más eficiente del espacio de almacenamiento.
+<p> Reducción de redundancia: Al combinar las tablas, evitamos duplicar información y reducimos la redundancia de datos. Esto conduce a un uso más eficiente del espacio de almacenamiento.
 Facilita la gestión de datos: Al tener una sola tabla que contenga toda la información relevante, la gestión de datos se simplifica. Ya no es necesario realizar un seguimiento de múltiples tablas separadas para acceder a la información completa sobre los pedidos y los productos.
-Mejora del rendimiento de consultas: Al reducir el número de tablas involucradas en una consulta, se puede mejorar el rendimiento del sistema, especialmente en bases de datos grandes. Las consultas tienden a ser más rápidas y eficientes cuando se accede a una sola tabla en lugar de múltiples tablas.
+
+<p> Mejora del rendimiento de consultas: Al reducir el número de tablas involucradas en una consulta, se puede mejorar el rendimiento del sistema, especialmente en bases de datos grandes. Las consultas tienden a ser más rápidas y eficientes cuando se accede a una sola tabla en lugar de múltiples tablas.
 
 <h3>CREACION DE BASE DE DATOS EN MYSQL</h3>
 
