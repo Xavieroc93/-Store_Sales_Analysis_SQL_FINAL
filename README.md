@@ -115,7 +115,7 @@ Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/d33979c1-f51f-481c-8f37-be1475f2cf88)
 
-  <p>1.- Impacto del Black Friday: Este evento pudo atraer consumidores a aprovechar las ofertas y descuentos significativosque la empresa promociono en esta fecha. Al ser un evento anual altamente anticipado, el Black Friday genera un incremento notable en el tráfico de compradores, es muy probable que la empresa genero camañas agresivas y promociones que genero un aumento sustancial en las ventas durante este período.
+  <p>1.- Impacto del Black Friday: Este evento pudo atraer consumidores a aprovechar las ofertas y descuentos significativos que la empresa promociono en esta fecha. Al ser un evento anual altamente anticipado, el Black Friday genera un incremento notable en el tráfico de compradores, es muy probable que la empresa genero campañas agresivas y promociones que genero un aumento sustancial en las ventas durante este período.
   <p>2.- Victoria del Flamengo: La coincidencia de esta fecha con la celebración de Flamengo por ganar el Brasileirão y la Copa Libertadores pudo contribuir un clima de euforia nacional.
 <p> La sinergia entre las promociones de Black Friday y la celebración deportiva pudo haber creado un ambiente excepcionalmente propicio para el consumo, lo cual fue estratégicamente aprovechado por la empresa para maximizar ingresos, implementando campañas de marketing que resonaron con el sentimiento colectivo de celebración.
 
