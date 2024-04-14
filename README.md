@@ -1,21 +1,8 @@
-
-
-<h1>ANÁLISIS DE DATOS EN LA TIENDA DE MODA ONLINE-Store_Sales_Analysis_SQL</h1>
+# ANÁLISIS DE DATOS EN LA TIENDA DE MODA ONLINE
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 > [!NOTE]
 > Este proyecto está diseñado para realizar un análisis exhaustivo de los datos de una destacada tienda online en Brasil. Nuestro objetivo es responder a preguntas críticas de negocio, explorar profundamente el comportamiento del mercado y proporcionar insights estratégicos que apoyen el crecimiento y la optimización de la empresa. A través de un enfoque analítico riguroso, buscamos identificar oportunidades, optimizar operaciones y fortalecer la posición de la tienda en su sector competitivo. Este análisis no solo clarificará los desafíos actuales sino que también guiará las decisiones empresariales hacia resultados tangibles y mejoras sostenibles.
-
-Preguntas solictadas por la empresa a responder
-1. ¿Cual es el Top 5 productos más vendidos históricamente?
-
-2. ¿Cual es la evolución histórica de las ingresos netos?
-
-3. ¿Cuáles son los ingresos netos por vendedor por año?
-
-4. ¿Cuáles son las ciudades que proporcionan mayores ingresos netos?
-
-5. ¿Existe otro insight que puedas proporcionar?
-> . <br>
 
 > [!CAUTION]
 > Utilizar con fines educativos :octocat:
@@ -28,60 +15,7 @@ Ante la necesidad imperativa de prever y optimizar el gasto de los usuarios, una
 El objetivo es proporcionar un entendimiento profundo que permita a la empresa no solo anticipar las tendencias futuras, sino también implementar estrategias efectivas para maximizar los beneficios y mejorar la satisfacción del cliente. A través de este análisis, buscamos identificar patrones clave, detectar oportunidades de crecimiento y ofrecer recomendaciones basadas en datos que guíen a la empresa hacia decisiones estratégicas acertadas en su competitivo entorno de mercado.
 </td></tr></table>
 
-<h2>Stack de tecnologías</h2>
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-<h2>Configuración del ambiente</h2>
-
-> [!IMPORTANT] 
-> Se requiere importar las siguientes tecnologías librerías para poder trabajar con el proyecto
-> ```
->import geobr
->import pandas as pd
->import numpy as np
->import matplotlib.pyplot as plt
->import seaborn as sns
->from matplotlib.patches import FancyBboxPatch
->from matplotlib.offsetbox import OffsetImage, AnnotationBbox
->import matplotlib.dates as mdates
->from matplotlib.ticker import FuncFormatter
->import matplotlib.ticker as ticker
->import geopandas as gpd
->from matplotlib.patheffects import withStroke
->import requests
->from io import BytesIO
->import matplotlib.pyplot as plt
->from matplotlib.offsetbox import OffsetImage, AnnotationBbox
->from io import BytesIO
->from sqlalchemy import create_engine, MetaData, Table, inspect, text
-> ```
-
-<h2>Obtención de datos</h2>
-
-En este apartado desargaremos los datos con los cuales trabajaremos
-
-<h3>Cargando las bases de datos</h3>
-<br>
-<p>  df_itens_pedidos = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/itens_pedidos.csv')
-
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/50e314e0-a2c3-4ba7-b9ce-9cd58be75666)
-
-<p> df_pedidos = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/pedidos.csv')
-
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/e236b252-ca59-4c77-bf70-0ab10e1ac915)
-
-<p>df_productos = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/productos.csv')
-
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/1f32c945-ead8-4793-8242-69a126194dc3)
-
-<p> df_vendedores = pd.read_csv('https://raw.githubusercontent.com/ElProfeAlejo/Bootcamp_Databases/main/vendedores.csv')</p>
-
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/198e2636-a8f5-4354-ac73-2af5a590763e)
-
-<h3>Tratamiento de datos</h3>
+## Tratamiento de datos
 
 Después de convertir todo a un DataFrame se tuvo que tratar los datos:
 
@@ -243,7 +177,7 @@ Mejora Logística: Explorar opciones para reducir los costos de envío en las á
 
 Se ha observado que tanto la tabla df_itens_pedidos como la tabla df_pedidos comparten las columnas "pedido_id", "producto_id" y "total". Por lo tanto, surge la necesidad de simplificar estas tablas combinándolas en una sola tabla para mejorar la eficiencia y la gestión de los datos.
 
-Razones
+### Razones
 
 Reducción de redundancia: Al combinar las tablas, evitamos duplicar información y reducimos la redundancia de datos. Esto conduce a un uso más eficiente del espacio de almacenamiento.
 Facilita la gestión de datos: Al tener una sola tabla que contenga toda la información relevante, la gestión de datos se simplifica. Ya no es necesario realizar un seguimiento de múltiples tablas separadas para acceder a la información completa sobre los pedidos y los productos.
@@ -255,38 +189,81 @@ Mejora del rendimiento de consultas: Al reducir el número de tablas involucrada
 <p>Al almacenar tanto la fecha como la hora de cada transacción, obtienes una granularidad de datos que permite análisis más detallados, como identificar picos de venta por hora o evaluar la eficiencia de la logística y entrega. Esta precisión puede ser crucial para optimizar operaciones, entender el comportamiento del consumidor y tomar decisiones informadas
 
   > <p> id_recibo: Usar INT es adecuado para un identificador que no será la clave primaria
-  > <p> producto_id NOT NULL y vendedor_id: Establecer como NOT NULL asegura que cada transacción debe estar asociada con un producto y un vendedor, manteniendola integridad de los datos. *pedido_id INT PRIMARY KEY:Designado como PRIMARY KEY asegura unicidad y optimiza las búsquedas y relaciones. *cantidad,            
+  > <p> producto_id NOT NULL y `vendedor_id`: Establecer como NOT NULL asegura que cada transacción debe estar asociada con un producto y un vendedor, manteniendola integridad de los datos.
+  > <p> pedido_id INT PRIMARY KEY: Designado como PRIMARY KEY asegura unicidad y optimiza las búsquedas y relaciones. *cantidad,            
   > <p> valor_unitario, valor_total, costo_envio: Elegir DECIMAL(10,2) para valores monetarios proporciona precisión en cálculos financieros. *ciudad CHAR(5): Asumiendo que el código de ciudad siempre tiene 5 caracteres, CHAR(5) es eficiente en términos de almacenamiento, al tener longitud fija.</p>
 
 <h4>2. Creación de la Tabla producto </h4>
+
   > <p> producto VARCHAR NOT NULL:. Asumir datos siempre presentes con NOT NULL es crucial para la integridad.
   > <p> precio DECIMAL(10,2) NOT NULL: Asegura precisión en el almacenamiento de precios.
   > <p> marca VARCHAR, condicion VARCHAR(28): Se recomienda especificar una longitud máxima para VARCHAR, basada en la longitud esperada más común para estos campos.
 
 <h4>3. Creación de la Tabla vendedores</h4>
+
+  >
   > <p> Nombre_vendedor VARCHAR(255) NOT NULL: VARCHAR(255) es un estándar de la industria para textos cortos, permitiendo flexibilidad en los nombres sin desperdiciar espacio.</p>
+  >
 
 <h3> Sugerimos una Base de datos de la siguiente manera:...</h3>
 
 ![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/5c0591f9-632d-4aa1-9936-1dd5fc0556d9)
 
 
-<h2> RESPONDIENDO LAS PREGUNTAS </h2>
+## RESPONDIENDO LAS PREGUNTAS 
 
-<h3> Pregunta 1: ¿Cual es el Top 5 productos más vendidos históricamente? </h3>
+### 1. ¿Cual es el Top 5 productos más vendidos históricamente?
 
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/3237efb0-4f73-4568-8763-d8dd112e0cff)
+![](https://i.imgur.com/g5DYZYe.png)
 
+Históricamente el producto más vendido es el producto **Saia Midi
+Cinto** con **549** ventas, a pesar de ello el que más ingresos generó
+es el producto **Vestido Nude Reta** llegando a los **\$301K**
 
-<h3> Pregunta 2: ¿Cual es la evolución histórica de las ingresos netos? </h3>
+### 2. ¿Cual es la evolución histórica de las ingresos netos?
 
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/6acfa7d7-ba27-4acd-8e76-bb5d7349e9e9)
+![](https://i.imgur.com/JzS2aZa.png)
 
-<h3>Pregunta 3: ¿Cuáles son los ingresos netos por vendedor por año? </h3>
+El análisis de los ingresos netos históricos muestra un valor promedio
+de **\$80 mil** de ingresos netos diarios desde el **2020**. También
+podemos visualizar en el histórico que el día **24’Nov del
+2019**, se reportó un ingreso neto de **\$280 mil** generando por la
+venta de algunas marcas famosas.
 
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/d63ba4ab-512a-4755-996a-e64e1424b199)
+### 3. ¿Cuáles son los ingresos netos por vendedor por año?
 
-<h3> Pregunta 4: ¿Cuáles son las ciudades que proporcionan mayores ingresos netos? </h3>
+![](https://i.imgur.com/2ctUaAP.png)
 
-![image](https://github.com/Xavieroc93/-Store_Sales_Analysis_SQL_FINAL./assets/93497146/9bcf60ab-f2dc-4e78-83dc-cf069236fecf)
+Aunque **Paulo** es el mejor vendedor histórico ha mantenido un nivel de
+ventas constante, ya que en el año 2020 fue el que menos vendió, sus
+demás compañeros crecieron todos sus ingresos netos destacando a **Ana**
+y **Daniel** sobrepasando los **\$5M** en el año en cuestión.
 
+### 4. ¿Cuáles son las ciudades que proporcionan mayores ingresos netos?
+
+![](https://i.imgur.com/bIvV7fg.png)
+
+Destacando a las ciudades **Alagoas** y **Pernambuco**, con ingresos
+netos superiores a **\$1.5M** durante todo el periodo histórico.
+Mientras que **Mato Grosso do Sul** y **Acre** ocupan los últimos
+lugares de la lista con ingresos netos inferiores a **\$1.2**, donde se
+debe mejorar las acciones de ventas.
+
+### 5. ¿Cómo son los márgenes de ganancia con los costos de envío entre los productos?
+
+![](https://i.imgur.com/3bXM1NG.png)
+
+Vemos que las carteras son las en total tienen mayor costo de envío, sin
+embargo prácticamente como mandan en todos lados tienen un margen de
+ganancias estándar del **20%**
+
+# Conclusiones finales
+
+* El analisis de la información precedentemente expuesta refleja importantes observaciones sobre la problemática de negocios y su evolución histórica que permite influir en la toma de decisiones estratégicas, con el objeto de impulsar el rendimiento.
+* Se analizó la evolución histórica de las ventas por productos, el comportamiento por vendedor y la distribución geográfica a nivel nacional, lo que permite tener un conocimiento cabal del desarrollo histórico de las ventas y la representatividad asociada a cada vendedor y región del país.
+* Con el objeto de impulsar el rendimiento, mejorar la eficiencia y reducir costos se sugiere implementar diversas campañas promocionales como la llevada a cabo el día 24/11 (Black Friday) distribuidas a lo largo del año. Capacitar o fortalecer las competencias de los vendedores menos eficientes. Eliminar la distribución de productos en las regiones menos rentables, fortalecer y sobreponderar la distribución logística en las regiones que representan menores costes de envío y mayor rentabilidad para la empresa.
+
+> [!IMPORTANT]
+> Esto fue un proyecto que participamos los miembros del canal del
+> 
+>[![](https://img.shields.io/youtube/channel/subscribers/UCuerQOTskuNkddcT738357g?style=for-the-badge&logo=youtube&label=ElProfeAlejo)](https://www.youtube.com/@ElProfeAlejo)
